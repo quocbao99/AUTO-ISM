@@ -1,0 +1,781 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj": {}
+  },
+  "projects": {
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj",
+        "projectName": "AppStore",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IdentityModel.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "System.Security.Cryptography.Cng": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj",
+        "projectName": "Extensions",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RedLock.net": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj",
+        "projectName": "Interface",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.31, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj",
+        "projectName": "MyPayPal",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IdentityModel.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj",
+        "projectName": "Request",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+              },
+              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj": {
+                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.8.5, )"
+            },
+            "Facebook": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.58.0, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "PayPal": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[1.50.5147, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.1.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.15, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.8.5, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "PayPal": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
