@@ -171,6 +171,12 @@ namespace Models.AutoMapper
             CreateMap<NotificationUpdate, Notification>().ReverseMap();
             CreateMap<PagedList<NotificationModel>, PagedList<Notification>>().ReverseMap();
 
+            //UserNotification
+            CreateMap<UserNotificationModel, UserNotification>().ReverseMap();
+            CreateMap<UserNotificationCreate, UserNotification>().ReverseMap();
+            CreateMap<UserNotificationUpdate, UserNotification>().ReverseMap();
+            CreateMap<PagedList<UserNotificationModel>, PagedList<UserNotification>>().ReverseMap();
+
             #region Paypal
             CreateMap<PlanPaypalModel, PlanPaypal>().ReverseMap();
             CreateMap<PlanPaypalCreate, PlanPaypal>().ReverseMap();

@@ -62,6 +62,7 @@ namespace AppDbContext
         public DbSet<CurrencyExchangeRate> CurrencyExchangeRate { get; set; }
         public DbSet<AccessDescription> AccessDescription { get; set; }
         public DbSet<Notification> Notification { get; set; }
+        public DbSet<UserNotification> UserNotification { get; set; }
         public DbSet<Policy> Policy { get; set; }
 
         #region paypal

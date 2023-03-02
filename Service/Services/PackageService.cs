@@ -78,7 +78,7 @@ namespace Service.Services
 
                 //await appStoreClient.GetApps(new AppStore.Models.Request.GetAppsRequest() { data = "" });
                 // lấy giá từ apple store
-
+                var productId = DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString();
                 var subcription = await appStoreClient.CreateSubcriptions(new AppStore.Models.Request.CreateSubcriptionRequest()
                 {
                     data = new AppStore.Models.Request.DataSubscriptionCreate()
@@ -88,7 +88,7 @@ namespace Service.Services
                             availableInAllTerritories = true,
                             familySharable = true,
                             name = item.Name,
-                            productId= DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(),
+                            productId= productId,
                             reviewNote ="",
                             subscriptionPeriod = appStoreClient.GetSubscriptionPeriodByNumber(item.MonthExp),
                             groupLevel = 1
@@ -110,9 +110,13 @@ namespace Service.Services
                     }
 
                 });
-                var pricePoints = await appStoreClient.GetPricePoint(new AppStore.Models.Request.GetPricePointRequest() { subcription_id = subcription.data.id, subscriptionPricePoints="30" });
+                if (subcription is null || subcription.data is null || subcription.data.id is null) throw new Exception("Lỗi liên kết với apple Store");
+                item.AppStoreProductID = productId;
+                item.AppStoreSubscriptionID = subcription.data.id;
+                var pricePoints = await appStoreClient.GetPricePoint(new AppStore.Models.Request.GetPricePointRequest() { subcription_id = subcription.data.id, subscriptionPricePoints= amount_USD.ToString() });
                 var pricePoint = pricePoints.data.Where(d => d.attributes.customerPrice == (double)amount_USD).FirstOrDefault();
-                if (pricePoint is null) throw new Exception("Lối liên kết với apple Store");
+                if (pricePoint is null) throw new Exception("Lỗi liên kết với apple Store");
+                
                 var subcriptionPrice = await appStoreClient.CreateSubcriptionPrice(new AppStore.Models.Request.CreateSubcriptionPriceRequest()
                 {
                     data = new AppStore.Models.Request.DataSubscriptionPriceCreate()
@@ -139,6 +143,7 @@ namespace Service.Services
                                     type = "subscriptionPricePoints"
                                 }
                             }
+                            // tiền tệ đa quốc gia
                             //territory= new AppStore.Models.Request.TerritorySubscriptionPriceRelationships() { 
                             //    data = new AppStore.Models.Request.TerritorySubscriptionPriceSubscriptionPriceRelationships() { 
                             //        id = "",
@@ -149,7 +154,7 @@ namespace Service.Services
                     }
 
                 });
-
+                if (subcriptionPrice is null) throw new Exception("Lỗi liên kết với app store");
                 #endregion
 
                 // tạo product id và plan id cho paypal

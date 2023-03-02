@@ -113,6 +113,10 @@
     <Compile Include="Migrations\20230222023216_ahihihihihihihiih.Designer.cs" />
     <Compile Include="Migrations\20230222025537_afjsjaknfnjehfehel.cs" />
     <Compile Include="Migrations\20230222025537_afjsjaknfnjehfehel.Designer.cs" />
+    <Compile Include="Migrations\20230227045534_ghfhfhffhfhfh.cs" />
+    <Compile Include="Migrations\20230227045534_ghfhfhffhfhfh.Designer.cs" />
+    <Compile Include="Migrations\20230227085428_fffffff.cs" />
+    <Compile Include="Migrations\20230227085428_fffffff.Designer.cs" />
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
   </ItemGroup>
 

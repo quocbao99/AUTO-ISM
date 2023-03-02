@@ -21,6 +21,7 @@ namespace Request.RequestCreate
         public string Content { get; set; }
         public string LinkWeb { get; set; }
         public string LinkApp { get; set; }
-        public bool? IsRead { get; set; }
+        //public bool? IsRead { get; set; }
+        public bool IsSendMail { get; set; }
     }
 }

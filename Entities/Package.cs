@@ -25,9 +25,14 @@ namespace Entities
         /// </summary>
         public string PayPalPlanID { get; set; }
         /// <summary>
-        /// Pay
+        /// stripe
         /// </summary>
         public string PriceStripeID { get; set; }
+
+        #region appstore
+        public string AppStoreProductID { get; set; }
+        public string AppStoreSubscriptionID { get; set; }
+        #endregion
 
         // quyền truy cập tài liệu
         public string AccessPackageTypes { get; set; }

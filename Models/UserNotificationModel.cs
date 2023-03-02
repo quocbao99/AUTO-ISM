@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class NotificationModel : DomainModels.AppDomainModel
+    public class UserNotificationModel : DomainModels.AppDomainModel
     {
         public string Type { get; set; }
-        public string Roles { get; set; }
-        public string UserIDs { get; set; }
         public Guid? UserID { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }

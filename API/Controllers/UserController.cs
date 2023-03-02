@@ -73,8 +73,7 @@ namespace BaseAPI.Controllers
                     if (role == null)
                         throw new AppException("Quyền không tồn tại");
                     
-                    Expression<Func<Users, Users>> includeProperties = e => new Users() { Code = e.Code, Username = e.Username, Phone = e.Phone };
-                    IList<Users> users = await this.domainService.GetAsync(new Expression<Func<Users, bool>>[] { }, includeProperties);
+                    IList<Users> users = await this.domainService.GetAsync(d=>(d.Username == item.Username || d.Email == item.Email || d.Phone == item.Phone) && (d.IsVerification == true && d.Deleted== false) );
                     if (users.Any(x => x.Username == item.Username && x.Active == true && x.IsVerification == true && x.Deleted == false))
                         throw new AppException("Tên đăng nhập đã tồn tại trong hệ thống!");
                     if (users.Any(x => x.Phone == item.Phone && x.Active == true && x.IsVerification == true && x.Deleted == false))

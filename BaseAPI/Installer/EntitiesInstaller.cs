@@ -41,6 +41,7 @@ namespace BaseAPI.Installer
             services.AddTransient<IHangFireManageService, HangFireManageService>();
             services.AddTransient<IAccessDescriptionService, AccessDescriptionService>();
             services.AddTransient<INotificationService, NotificationService>();
+            services.AddTransient<IUserNotificationService, UserNotificationService>();
             services.AddTransient<IPolicyService, PolicyService>();
 
             #region paypal
