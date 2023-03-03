@@ -57,7 +57,7 @@ namespace BaseAPI.Controllers
         public async override Task<AppDomainResult> Get([FromQuery] DTCSearch baseSearch)
         {
             var user = LoginContext.Instance.CurrentUser;
-            if (user.trial == true || user.isAdmin == true) {
+            if (user.trial == true || user.isAdmin == true || user.roleCode == "Quanly" || user.roleCode == "Nhaplieu") {
 
                 if (ModelState.IsValid)
                 {
@@ -234,7 +234,7 @@ namespace BaseAPI.Controllers
         {
 
             var user = LoginContext.Instance.CurrentUser;
-            if (user.trial == true || user.isAdmin == true)
+            if (user.trial == true || user.isAdmin == true || user.roleCode == "Quanly" || user.roleCode == "Nhaplieu")
             {
 
                 DTC item = await this.domainService.GetByIdAsync(id);

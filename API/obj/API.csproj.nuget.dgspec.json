@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\API\\API.csproj": {}
+    "D:\\MonaMedia\\AUTO-ISM\\API\\API.csproj": {}
   },
   "projects": {
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\API\\API.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\API\\API.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\API\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,17 +31,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\BaseAPI.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\BaseAPI.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\BaseAPI.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\BaseAPI.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj"
               }
             }
           }
@@ -162,25 +161,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj",
         "projectName": "AppDbContext",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,14 +192,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Extensions\\Extensions.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Extensions\\Extensions.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj"
               }
             }
           }
@@ -240,25 +238,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\AppStore\\AppStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\AppStore\\AppStore.csproj",
         "projectName": "AppStore",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\AppStore\\AppStore.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\AppStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -316,25 +313,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj",
         "projectName": "Attributes",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Attributes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -374,25 +370,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\BaseAPI.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\BaseAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\BaseAPI.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\BaseAPI.csproj",
         "projectName": "BaseAPI",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\BaseAPI.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\BaseAPI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -406,26 +401,26 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Service\\Service.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Service\\Service.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj"
               }
             }
           }
@@ -483,25 +478,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -515,8 +509,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -551,25 +545,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Extensions\\Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Extensions\\Extensions.csproj",
         "projectName": "Extensions",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Extensions\\Extensions.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -583,17 +576,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -644,25 +637,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj",
         "projectName": "Interface",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -676,14 +668,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj"
               }
             }
           }
@@ -738,25 +730,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -770,11 +761,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -809,25 +800,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\PayPal\\MyPayPal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\PayPal\\MyPayPal.csproj",
         "projectName": "MyPayPal",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\PayPal\\MyPayPal.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\PayPal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -877,25 +867,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj",
         "projectName": "Request",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Request\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -909,11 +898,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -952,25 +941,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -984,20 +972,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppStore\\AppStore.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\AppStore\\AppStore.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\AppStore\\AppStore.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Entities\\Entities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Entities\\Entities.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Extensions\\Extensions.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Extensions\\Extensions.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Extensions\\Extensions.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\PayPal\\MyPayPal.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\PayPal\\MyPayPal.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\PayPal\\MyPayPal.csproj"
               }
             }
           }
@@ -1088,25 +1076,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj",
         "projectName": "SignalrHubs",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1120,11 +1107,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj"
               },
-              "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
-                "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj"
+              "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -1153,25 +1140,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj": {
+    "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Utilities\\obj\\",
+        "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MonaMedia\\AUTO-ISM\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1245,7 +1231,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }
