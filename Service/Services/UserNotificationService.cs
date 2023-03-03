@@ -49,29 +49,32 @@ namespace Service.Services
             return "UserNotification_GetPagingUserNotification";
         }
 
-        public async Task<bool> addUserNotification(NotificationCreate itemModel) {
+        public async Task<bool> addUserNotification(NotificationCreate itemModel)
+        {
             if (NotificationType.USER.GetHashCode().ToString().Contains(itemModel.Type))
             {
                 if (itemModel.UserID is null) throw new Exception("thông tin User không được để trống");
                 var user = await userService.GetByIdAsync((Guid)itemModel.UserID);
                 if (user is null) throw new Exception("không tìm thấy thông tin User");
-                
+
                 if (itemModel.IsSendMail == true)
                 {
-                    await emailConfigurationService.SendMail(itemModel.Title, user.Email, new string[] { "" }, new string[] { "" }, new EmailContent { isHtml = true, content = itemModel.Content, attachments = null });
+                    if (!string.IsNullOrEmpty(user.Email))
+                        await emailConfigurationService.SendMail(itemModel.Title, user.Email, new string[] { "" }, new string[] { "" }, new EmailContent { isHtml = true, content = itemModel.Content, attachments = null });
                 }
-                await oneSignalService.CreateOneSignal(itemModel.Title, itemModel.Content, new string[] { user.OneSignalID });
+                if (!string.IsNullOrEmpty(user.OneSignalID))
+                    await oneSignalService.CreateOneSignal(itemModel.Title, itemModel.Content, new string[] { user.OneSignalID });
                 var userNorification = new UserNotification();
                 userNorification.Created = Timestamp.Now();
                 userNorification.Title = itemModel.Title;
                 userNorification.Title = itemModel.Title;
                 userNorification.Content = itemModel.Content;
-                userNorification.IsSendMail= itemModel.IsSendMail;
-                userNorification.IsRead= false;
-                userNorification.LinkApp= itemModel.LinkApp;
+                userNorification.IsSendMail = itemModel.IsSendMail;
+                userNorification.IsRead = false;
+                userNorification.LinkApp = itemModel.LinkApp;
                 userNorification.LinkWeb = itemModel.LinkWeb;
-                userNorification.Type= itemModel.Type;
-                userNorification.UserID= user.Id;
+                userNorification.Type = itemModel.Type;
+                userNorification.UserID = user.Id;
                 return await this.CreateAsync(userNorification);
 
             }
@@ -83,11 +86,13 @@ namespace Service.Services
                 foreach (var userid in userids)
                 {
                     var user = await userService.GetByIdAsync(new Guid(userid));
-                    oneSignalIDs.Append(user.OneSignalID);
+                    if (!string.IsNullOrEmpty(user.OneSignalID))
+                        oneSignalIDs.Append(user.OneSignalID);
                     var userNorification = new UserNotification();
                     if (itemModel.IsSendMail == true)
                     {
-                        await emailConfigurationService.SendMail(itemModel.Title, user.Email, new string[] { "" }, new string[] { "" }, new EmailContent { isHtml = true, content = itemModel.Content, attachments = null });
+                        if (!string.IsNullOrEmpty(user.Email))
+                            await emailConfigurationService.SendMail(itemModel.Title, user.Email, new string[] { "" }, new string[] { "" }, new EmailContent { isHtml = true, content = itemModel.Content, attachments = null });
                     }
                     var userNorification2 = new UserNotification();
                     userNorification2.Created = Timestamp.Now();
@@ -101,6 +106,7 @@ namespace Service.Services
                     userNorification2.UserID = user.Id;
                     await this.CreateAsync(userNorification2);
                 }
+
                 await oneSignalService.CreateOneSignal(itemModel.Title, itemModel.Content, oneSignalIDs);
                 return true;
                 //return new AppDomainResult() { ResultCode =(int)HttpStatusCode.OK, Success= true, ResultMessage= "thành công" };
@@ -115,11 +121,12 @@ namespace Service.Services
                 string[] oneSignalIDs = new string[] { };
                 foreach (var user in users)
                 {
-                    oneSignalIDs.Append(user.OneSignalID);
+                    if (!string.IsNullOrEmpty(user.OneSignalID))
+                        oneSignalIDs.Append(user.OneSignalID);
                     if (itemModel.IsSendMail == true)
                     {
                         var sendmail = BackgroundJob.Schedule(
-                             () =>  emailConfigurationService.SendMail(itemModel.Title, user.Email, new string[] { "" }, new string[] { "" }, new EmailContent { isHtml = true, content = itemModel.Content, attachments = null }),
+                             () => emailConfigurationService.SendMail(itemModel.Title, user.Email, new string[] { "" }, new string[] { "" }, new EmailContent { isHtml = true, content = itemModel.Content, attachments = null }),
                             DateTime.Now);
                         //await emailConfigurationService.SendMail(itemModel.Title, user.Email, new string[] { "" }, new string[] { "" }, new EmailContent { isHtml = true, content = itemModel.Content, attachments = null });
                     }

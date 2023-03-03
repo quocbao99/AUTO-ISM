@@ -46,3 +46,20 @@ H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Entities\obj\Debug\net5.0\En
 H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Entities\obj\Debug\net5.0\Entities.dll
 H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Entities\obj\Debug\net5.0\ref\Entities.dll
 H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Entities\obj\Debug\net5.0\Entities.pdb
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.dll
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\ref\Entities.dll
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.pdb
+D:\MonaMedia\AUTO-ISM\Entities\bin\Debug\net5.0\Entities.deps.json
+D:\MonaMedia\AUTO-ISM\Entities\bin\Debug\net5.0\Entities.dll
+D:\MonaMedia\AUTO-ISM\Entities\bin\Debug\net5.0\ref\Entities.dll
+D:\MonaMedia\AUTO-ISM\Entities\bin\Debug\net5.0\Entities.pdb
+D:\MonaMedia\AUTO-ISM\Entities\bin\Debug\net5.0\Entities.xml
+D:\MonaMedia\AUTO-ISM\Entities\bin\Debug\net5.0\Utilities.dll
+D:\MonaMedia\AUTO-ISM\Entities\bin\Debug\net5.0\Utilities.pdb
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete
+D:\MonaMedia\AUTO-ISM\Entities\obj\Debug\net5.0\Entities.xml

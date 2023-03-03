@@ -155,6 +155,11 @@
             Quản lý user favorite
             </summary>
         </member>
+        <member name="T:BaseAPI.Controllers.UserNotificattionController">
+            <summary>
+            Quản lý Thông báo người dùng
+            </summary>
+        </member>
         <member name="T:API.Controllers.Auth.AuthController">
             <summary>
             Quản lý tài khoản

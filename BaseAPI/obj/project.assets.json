@@ -12077,24 +12077,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\BaseAPI.csproj",
+      "projectUniqueName": "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\BaseAPI.csproj",
       "projectName": "BaseAPI",
-      "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\BaseAPI.csproj",
-      "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-      "outputPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\BaseAPI\\obj\\",
+      "projectPath": "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\BaseAPI.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\MonaMedia\\AUTO-ISM\\BaseAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12108,26 +12107,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj": {
-              "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\AppDbContext\\AppDbContext.csproj"
+            "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj": {
+              "projectPath": "D:\\MonaMedia\\AUTO-ISM\\AppDbContext\\AppDbContext.csproj"
             },
-            "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj": {
-              "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Attributes\\Attributes.csproj"
+            "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj": {
+              "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Attributes\\Attributes.csproj"
             },
-            "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj": {
-              "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Interface\\Interface.csproj"
+            "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj": {
+              "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Interface\\Interface.csproj"
             },
-            "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj": {
-              "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Models\\Models.csproj"
+            "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj": {
+              "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Models\\Models.csproj"
             },
-            "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj": {
-              "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Request\\Request.csproj"
+            "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj": {
+              "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Request\\Request.csproj"
             },
-            "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj": {
-              "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\Service\\Service.csproj"
+            "D:\\MonaMedia\\AUTO-ISM\\Service\\Service.csproj": {
+              "projectPath": "D:\\MonaMedia\\AUTO-ISM\\Service\\Service.csproj"
             },
-            "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj": {
-              "projectPath": "H:\\File OnDay\\work to day\\APP\\APP\\AUTO_ISM\\AUTO_ISM\\SignalrHubs\\SignalrHubs.csproj"
+            "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj": {
+              "projectPath": "D:\\MonaMedia\\AUTO-ISM\\SignalrHubs\\SignalrHubs.csproj"
             }
           }
         }
@@ -12185,7 +12184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
       }
     }
   },

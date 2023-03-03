@@ -22,3 +22,15 @@ H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Attributes\obj\Release\net5.
 H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Attributes\obj\Release\net5.0\Attributes.dll
 H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Attributes\obj\Release\net5.0\ref\Attributes.dll
 H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Attributes\obj\Release\net5.0\Attributes.pdb
+D:\MonaMedia\AUTO-ISM\Attributes\bin\Release\net5.0\Attributes.deps.json
+D:\MonaMedia\AUTO-ISM\Attributes\bin\Release\net5.0\Attributes.dll
+D:\MonaMedia\AUTO-ISM\Attributes\bin\Release\net5.0\ref\Attributes.dll
+D:\MonaMedia\AUTO-ISM\Attributes\bin\Release\net5.0\Attributes.pdb
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\Attributes.csproj.AssemblyReference.cache
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\Attributes.GeneratedMSBuildEditorConfig.editorconfig
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\Attributes.AssemblyInfoInputs.cache
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\Attributes.AssemblyInfo.cs
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\Attributes.csproj.CoreCompileInputs.cache
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\Attributes.dll
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\ref\Attributes.dll
+D:\MonaMedia\AUTO-ISM\Attributes\obj\Release\net5.0\Attributes.pdb

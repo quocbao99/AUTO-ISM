@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>H:\File OnDay\work to day\APP\APP\AUTO_ISM\AUTO_ISM\Entities\Entities.xml</DocumentationFile>
+    <DocumentationFile></DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
@@ -67,10 +67,6 @@
     <Compile Remove="Search\SearchContactCustomer.cs" />
     <Compile Remove="Search\SearchProject.cs" />
     <Compile Remove="Search\SearchProjectComment.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Entities.xml" />
   </ItemGroup>
 
   <ItemGroup>

@@ -103,6 +103,11 @@ namespace BaseAPI.Controllers
             throw new KeyNotFoundException(ApiMessage.ItemNotFound);
         }
 
+        /// <summary>
+        /// @OrderBy 0 - tên a => z, 1 - ten z => a, 2 ngày tạo cũ => mới, 3 ngày tạo mới => cũ
+        /// </summary>
+        /// <param name="baseSearch"></param>
+        /// <returns></returns>
         public async override Task<AppDomainResult> Get([FromQuery] MaterialSearch baseSearch)
         {
             if (ModelState.IsValid)

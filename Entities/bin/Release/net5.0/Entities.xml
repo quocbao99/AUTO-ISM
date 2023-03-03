@@ -196,7 +196,7 @@
         </member>
         <member name="P:Entities.Package.PriceStripeID">
             <summary>
-            Pay
+            stripe
             </summary>
         </member>
         <member name="P:Entities.PaymentMethodConfiguration.Command">

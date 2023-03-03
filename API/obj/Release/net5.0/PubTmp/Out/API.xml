@@ -54,6 +54,13 @@
             Quản lý Tài liệu
             </summary>
         </member>
+        <member name="M:BaseAPI.Controllers.MaterialController.Get(Entities.Search.MaterialSearch)">
+            <summary>
+            @OrderBy 0 - tên a => z, 1 - ten z => a, 2 ngày tạo cũ => mới, 3 ngày tạo mới => cũ
+            </summary>
+            <param name="baseSearch"></param>
+            <returns></returns>
+        </member>
         <member name="T:BaseAPI.Controllers.MaterialSubController">
             <summary>
             Quản lý phần tử tài liệu
@@ -153,6 +160,11 @@
         <member name="T:BaseAPI.Controllers.UserHistoryController">
             <summary>
             Quản lý user favorite
+            </summary>
+        </member>
+        <member name="T:BaseAPI.Controllers.UserNotificattionController">
+            <summary>
+            Quản lý Thông báo người dùng
             </summary>
         </member>
         <member name="T:API.Controllers.Auth.AuthController">
